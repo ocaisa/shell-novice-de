@@ -1,4 +1,4 @@
-name: "01 Build and Deploy Site"
+name: "01 Build and Deploy Site in German"
 
 on:
   push:
