@@ -114,8 +114,8 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 <hr>
-<li><a class="dropdown-item" href="discuss.html">Discussion</a></li>
-<li><a class="dropdown-item" href="reference.html">Summary of Basic Commands</a></li>
+<li><a class="dropdown-item" href="discuss.html">Diskussion</a></li>
+<li><a class="dropdown-item" href="reference.html">Zusammenfassung der grundlegenden Befehle</a></li>
           </ul>
 </li>
       </ul>
@@ -236,7 +236,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="01-intro.html">1. Introducing the Shell</a>
+        <a href="01-intro.html">1. Einführung in die Shell</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -248,7 +248,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-filedir.html">2. Navigating Files and Directories</a>
+        <a href="02-filedir.html">2. Dateien und Verzeichnisse durchsuchen</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -260,7 +260,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-create.html">3. Working With Files and Directories</a>
+        <a href="03-create.html">3. Arbeiten mit Dateien und Verzeichnissen</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -272,7 +272,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-pipefilter.html">4. Pipes and Filters</a>
+        <a href="04-pipefilter.html">4. Pipes und Filter</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -284,7 +284,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-loop.html">5. Loops</a>
+        <a href="05-loop.html">5. Schleifen</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -296,7 +296,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="06-script.html">6. Shell Scripts</a>
+        <a href="06-script.html">6. Shell-Skripte</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -308,7 +308,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="07-find.html">7. Finding Things</a>
+        <a href="07-find.html">7. Dinge finden</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -342,8 +342,8 @@
                         <a href="../instructor/images.html">Alle Bilder extrahieren</a>
                       </li>
                       <hr>
-<li><a class="dropdown-item" href="discuss.html">Discussion</a></li>
-<li><a class="dropdown-item" href="reference.html">Summary of Basic Commands</a></li>
+<li><a class="dropdown-item" href="discuss.html">Diskussion</a></li>
+<li><a class="dropdown-item" href="reference.html">Zusammenfassung der grundlegenden Befehle</a></li>
                     </ul>
 </div>
                 </div>
@@ -373,8 +373,8 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="01-intro"><h2 class="section-heading"><a href="01-intro.html">Introducing the Shell</a></h2>
-<hr class="half-width"></section><section id="02-filedir"><h2 class="section-heading"><a href="02-filedir.html">Navigating Files and Directories</a></h2>
+<section id="01-intro"><h2 class="section-heading"><a href="01-intro.html">Einführung in die Shell</a></h2>
+<hr class="half-width"></section><section id="02-filedir"><h2 class="section-heading"><a href="02-filedir.html">Dateien und Verzeichnisse durchsuchen</a></h2>
 <hr class="half-width">
 <h3 id="02-filedir-figure-1">Abbildung 1</h3>
 <p aria-hidden="true">Bild 1 von 1: ‘Das Dateisystem besteht aus einem Stammverzeichnis, das Unterverzeichnisse mit den Namen bin, data, users und tmp enthält’</p>
@@ -383,27 +383,27 @@
 <p aria-hidden="true">Bild 1 von 1: ‘Wie andere Verzeichnisse sind Home-Verzeichnisse Unterverzeichnisse unterhalb von "/Users" wie "/Users/imhotep", "/Users/larry" oder"/Users/nelle"’</p>
 <figure><img src="../fig/home-directories.svg" alt='Wie andere Verzeichnisse sind Home-Verzeichnisse Unterverzeichnisse unterhalb von "/Users" wie "/Users/imhotep", "/Users/larry" oder"/Users/nelle"' class="figure mx-auto d-block"></figure><hr>
 <h3 id="02-filedir-figure-3">Abbildung 3</h3>
-<p aria-hidden="true">Bild 1 von 1: ‘Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, wobei "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"’</p>
-<figure><img src="../fig/filesystem-challenge.svg" alt='Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, wobei "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"' class="figure mx-auto d-block"></figure><hr>
+<p aria-hidden="true">Bild 1 von 1: ‘Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, in dem "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"’</p>
+<figure><img src="../fig/filesystem-challenge.svg" alt='Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, in dem "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"' class="figure mx-auto d-block"></figure><hr>
 <h3 id="02-filedir-figure-4">Abbildung 4</h3>
-<p aria-hidden="true">Bild 1 von 1: ‘Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, wobei "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"’</p>
-<figure><img src="../fig/filesystem-challenge.svg" alt='Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, wobei "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"' class="figure mx-auto d-block"></figure><hr>
+<p aria-hidden="true">Bild 1 von 1: ‘Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, in dem "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"’</p>
+<figure><img src="../fig/filesystem-challenge.svg" alt='Ein Verzeichnisbaum unterhalb des Users-Verzeichnisses, in dem "/Users" die Verzeichnisse "backup" und "thing" enthält; "/Users/backup" enthält "original", "pnas_final" und "pnas_sub"; "/Users/thing" enthält "backup"; und "/Users/thing/backup" enthält "2012-12-01", "2013-01-08" und "2013-01-27"' class="figure mx-auto d-block"></figure><hr>
 <h3 id="02-filedir-figure-5">Abbildung 5</h3>
 <p aria-hidden="true">Bild 1 von 1: ‘Allgemeine Syntax eines Shell-Befehls’</p>
-<figure><img src="../fig/shell_command_syntax.svg" alt="Allgemeine Syntax eines Shell-Befehls" class="figure mx-auto d-block"></figure><hr></section><section id="03-create"><h2 class="section-heading"><a href="03-create.html">Working With Files and Directories</a></h2>
+<figure><img src="../fig/shell_command_syntax.svg" alt="Allgemeine Syntax eines Shell-Befehls" class="figure mx-auto d-block"></figure><hr></section><section id="03-create"><h2 class="section-heading"><a href="03-create.html">Arbeiten mit Dateien und Verzeichnissen</a></h2>
 <hr class="half-width">
 <h3 id="03-create-figure-1">Abbildung 1</h3>
 <p aria-hidden="true">Bild 1 von 1: ‘Screenshot des Nano-Texteditors in Aktion mit dem Text It's not publish or perish any more, it's share and thrive’</p>
-<figure><img src="../fig/nano-screenshot.png" alt="Screenshot des Nano-Texteditors in Aktion mit dem Text It's not publish or perish any more, it's share and thrive" class="figure mx-auto d-block"></figure><hr></section><section id="04-pipefilter"><h2 class="section-heading"><a href="04-pipefilter.html">Pipes and Filters</a></h2>
+<figure><img src="../fig/nano-screenshot.png" alt="Screenshot des Nano-Texteditors in Aktion mit dem Text It's not publish or perish any more, it's share and thrive" class="figure mx-auto d-block"></figure><hr></section><section id="04-pipefilter"><h2 class="section-heading"><a href="04-pipefilter.html">Pipes und Filter</a></h2>
 <hr class="half-width">
 <h3 id="04-pipefilter-figure-1">Abbildung 1</h3>
-<p aria-hidden="true">Bild 1 von 1: ‘Redirects und Pipes von verschiedenen Befehlen: "wc -l *.pdb" leitet die Ausgabe an die Shell weiter. "wc -l *.pdb &gt; lengths" leitet die Ausgabe in die Datei "lengths". "wc -l *.pdb | sort -n | head -n 1" baut eine Pipeline auf, bei der die Ausgabe des "wc"-Befehls die Eingabe für den "sort"-Befehl ist, die Ausgabe des "sort"-Befehls die Eingabe für den "head"-Befehl ist und die Ausgabe des "head"-Befehls an die Shell geleitet wird’</p>
-<figure><img src="../fig/redirects-and-pipes.svg" alt='Redirects und Pipes von verschiedenen Befehlen: "wc -l *.pdb" leitet die Ausgabe an die Shell weiter. "wc -l *.pdb &gt; lengths" leitet die Ausgabe in die Datei "lengths". "wc -l *.pdb | sort -n | head -n 1" baut eine Pipeline auf, bei der die Ausgabe des "wc"-Befehls die Eingabe für den "sort"-Befehl ist, die Ausgabe des "sort"-Befehls die Eingabe für den "head"-Befehl ist und die Ausgabe des "head"-Befehls an die Shell geleitet wird' class="figure mx-auto d-block"></figure><hr></section><section id="05-loop"><h2 class="section-heading"><a href="05-loop.html">Loops</a></h2>
+<p aria-hidden="true">Bild 1 von 1: ‘Redirects und Pipes von verschiedenen Befehlen: "wc -l *.pdb" leitet die Ausgabe an die Shell weiter. "wc -l *.pdb &gt; lengths" leitet die Ausgabe in die Datei "lengths". "wc -l *.pdb | sort -n | head -n 1" erstellt eine Pipeline, bei der die Ausgabe des "wc"-Befehls die Eingabe für den "sort"-Befehl ist, die Ausgabe des "sort"-Befehls die Eingabe für den "head"-Befehl ist und die Ausgabe des "head"-Befehls an die Shell geleitet wird’</p>
+<figure><img src="../fig/redirects-and-pipes.svg" alt='Redirects und Pipes von verschiedenen Befehlen: "wc -l *.pdb" leitet die Ausgabe an die Shell weiter. "wc -l *.pdb &gt; lengths" leitet die Ausgabe in die Datei "lengths". "wc -l *.pdb | sort -n | head -n 1" erstellt eine Pipeline, bei der die Ausgabe des "wc"-Befehls die Eingabe für den "sort"-Befehl ist, die Ausgabe des "sort"-Befehls die Eingabe für den "head"-Befehl ist und die Ausgabe des "head"-Befehls an die Shell geleitet wird' class="figure mx-auto d-block"></figure><hr></section><section id="05-loop"><h2 class="section-heading"><a href="05-loop.html">Schleifen</a></h2>
 <hr class="half-width">
 <h3 id="05-loop-figure-1">Abbildung 1</h3>
 <p aria-hidden="true">Bild 1 von 1: ‘Die for-Schleife "for filename in .dat; do echo cp $filename original-$filename;done" weist der Variablen "$filename" nacheinander die Namen aller ".dat"-Dateien in Ihrem aktuellen Verzeichnis zu und führt dann den Befehl aus. Mit den Dateien "basilisk.dat", "minotaur.dat" und "unicorn.dat" im aktuellen Verzeichnis wird die Schleife nacheinander dreimal den Befehl echo aufrufen und drei Zeilen ausgeben: "cp basislisk.dat original-basilisk.dat", dann "cp minotaur.datoriginal-minotaur.dat" und schließlich "cp unicorn.datoriginal-unicorn.dat"’</p>
-<figure><img src="../fig/shell_script_for_loop_flow_chart.svg" alt='Die for-Schleife "for filename in .dat; do echo cp $filename original-$filename;done" weist der Variablen "$filename" nacheinander die Namen aller ".dat"-Dateien in Ihrem aktuellen Verzeichnis zu und führt dann den Befehl aus. Mit den Dateien "basilisk.dat", "minotaur.dat" und "unicorn.dat" im aktuellen Verzeichnis wird die Schleife nacheinander dreimal den Befehl echo aufrufen und drei Zeilen ausgeben: "cp basislisk.dat original-basilisk.dat", dann "cp minotaur.datoriginal-minotaur.dat" und schließlich "cp unicorn.datoriginal-unicorn.dat"' class="figure mx-auto d-block"></figure><hr></section><section id="06-script"><h2 class="section-heading"><a href="06-script.html">Shell Scripts</a></h2>
-<hr class="half-width"></section><section id="07-find"><h2 class="section-heading"><a href="07-find.html">Finding Things</a></h2>
+<figure><img src="../fig/shell_script_for_loop_flow_chart.svg" alt='Die for-Schleife "for filename in .dat; do echo cp $filename original-$filename;done" weist der Variablen "$filename" nacheinander die Namen aller ".dat"-Dateien in Ihrem aktuellen Verzeichnis zu und führt dann den Befehl aus. Mit den Dateien "basilisk.dat", "minotaur.dat" und "unicorn.dat" im aktuellen Verzeichnis wird die Schleife nacheinander dreimal den Befehl echo aufrufen und drei Zeilen ausgeben: "cp basislisk.dat original-basilisk.dat", dann "cp minotaur.datoriginal-minotaur.dat" und schließlich "cp unicorn.datoriginal-unicorn.dat"' class="figure mx-auto d-block"></figure><hr></section><section id="06-script"><h2 class="section-heading"><a href="06-script.html">Shell-Skripte</a></h2>
+<hr class="half-width"></section><section id="07-find"><h2 class="section-heading"><a href="07-find.html">Dinge finden</a></h2>
 <hr class="half-width"></section>
 </div>
     </main>
